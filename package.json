@@ -1,8 +1,8 @@
 {
   "name": "streamp",
   "version": "1.0.0",
-  "description": "Create streams but building the directory structure.",
-  "main": "lib/index",
+  "description": "mkdir -p combined with streams.",
+  "main": "lib/index.js",
   "directories": {
     "test": "test"
   },

@@ -12,4 +12,3 @@ bar.end();
 // Create readable stream
 var foo = new Streamp.readable(PATH);
 foo.pipe(process.stdout);
-
