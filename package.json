@@ -1,6 +1,6 @@
 {
   "name": "streamp",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "mkdir -p combined with streams.",
   "main": "lib/index.js",
   "directories": {
@@ -12,7 +12,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "node test"
+    "test": "node example"
   },
   "repository": {
     "type": "git",
