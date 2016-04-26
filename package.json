@@ -1,6 +1,6 @@
 {
   "name": "streamp",
-  "version": "2.2.1",
+  "version": "2.2.2",
   "description": "mkdir -p combined with streams.",
   "main": "lib/index.js",
   "directories": {
@@ -28,5 +28,16 @@
   "bugs": {
     "url": "https://github.com/IonicaBizau/node-streamp/issues"
   },
-  "homepage": "https://github.com/IonicaBizau/node-streamp"
+  "homepage": "https://github.com/IonicaBizau/node-streamp",
+  "files": [
+    "bin/",
+    "app/",
+    "lib/",
+    "dist/",
+    "src/",
+    "resources/",
+    "menu/",
+    "cli.js",
+    "index.js"
+  ]
 }
