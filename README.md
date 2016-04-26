@@ -1,14 +1,18 @@
+
 # streamp [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![Version](https://img.shields.io/npm/v/streamp.svg)](https://www.npmjs.com/package/streamp) [![Downloads](https://img.shields.io/npm/dt/streamp.svg)](https://www.npmjs.com/package/streamp) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
 
 > mkdir -p combined with streams.
 
-## Installation
+## :cloud: Installation
 
 ```sh
 $ npm i --save streamp
 ```
 
-## Example
+
+## :clipboard: Example
+
+
 
 ```js
 // Dependencies
@@ -27,7 +31,8 @@ var foo = new Streamp.readable(PATH);
 foo.pipe(process.stdout);
 ```
 
-## Documentation
+## :memo: Documentation
+
 
 ### `readable(options)`
 Creates a readable stream in the specified path (which will be created if doesn't exist).
@@ -53,19 +58,21 @@ Creates a writable stream in the specified path (which will be created if doesn'
 #### Return
 - **Stream** The writable stream that was created.
 
-## How to contribute
+
+
+## :yum: How to contribute
 Have an idea? Found a bug? See [how to contribute][contributing].
 
-## Where is this library used?
+## :dizzy: Where is this library used?
 If you are using this library in one of your projects, add it in this list. :sparkles:
 
- - [`blah`](https://github.com/IonicaBizau/blah)
 
- - [`github-colors`](https://github.com/IonicaBizau/github-colors)
+ - [`blah`](https://github.com/IonicaBizau/blah)—A command line tool to optimize the repetitive actions.
+ - [`github-colors`](https://github.com/IonicaBizau/github-colors)—GitHub colors and file extensions mapping
+ - [`kindly-license`](https://github.com/IonicaBizau/kindly-license)—A human readable license for projects created by human-beings.
+ - [`np-init`](https://github.com/IonicaBizau/np-init#readme)—Easily start a npm package from scratch.
 
- - [`kindly-license`](https://github.com/IonicaBizau/kindly-license)
-
-## License
+## :scroll: License
 
 [MIT][license] © [Ionică Bizău][website]
 
