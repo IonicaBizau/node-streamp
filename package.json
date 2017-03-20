@@ -1,6 +1,6 @@
 {
   "name": "streamp",
-  "version": "2.2.6",
+  "version": "2.2.7",
   "description": "mkdir -p combined with streams.",
   "main": "lib/index.js",
   "directories": {
@@ -23,7 +23,7 @@
     "file",
     "mkdirp"
   ],
-  "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
+  "author": "Ionică Bizău <bizauionica@gmail.com> (https://ionicabizau.net)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/IonicaBizau/node-streamp/issues"
@@ -33,12 +33,11 @@
     "bin/",
     "app/",
     "lib/",
-    "build/",
     "dist/",
     "src/",
+    "scripts/",
     "resources/",
     "menu/",
-    "scripts/",
     "cli.js",
     "index.js"
   ]
