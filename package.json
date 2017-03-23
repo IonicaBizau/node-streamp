@@ -1,6 +1,6 @@
 {
   "name": "streamp",
-  "version": "2.2.7",
+  "version": "2.2.8",
   "description": "mkdir -p combined with streams.",
   "main": "lib/index.js",
   "directories": {
