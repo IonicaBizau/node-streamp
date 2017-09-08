@@ -6,6 +6,7 @@ You can see below the API reference of this module.
 Creates a readable stream in the specified path (which will be created if doesn't exist).
 
 #### Params
+
 - **String|Object** `options`: The path to the file or an object containing the following fields:
  - `path` (String): The file path.
  - `flags` (String): The stream flags (default: `"a"`).
@@ -18,6 +19,7 @@ Creates a readable stream in the specified path (which will be created if doesn'
 Creates a writable stream in the specified path (which will be created if doesn't exist).
 
 #### Params
+
 - **String|Object** `options`: The path to the file or an object containing the following fields:
  - `path` (String): The file path.
  - `flags` (String): The stream flags (default: `"a"`).
