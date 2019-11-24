@@ -3,9 +3,7 @@
 
 # streamp
 
- [![Support me on Patreon][badge_patreon]][patreon] [![Buy me a book][badge_amazon]][amazon] [![PayPal][badge_paypal_donate]][paypal-donations] [![Ask me anything](https://img.shields.io/badge/ask%20me-anything-1abc9c.svg)](https://github.com/IonicaBizau/ama) [![Version](https://img.shields.io/npm/v/streamp.svg)](https://www.npmjs.com/package/streamp) [![Downloads](https://img.shields.io/npm/dt/streamp.svg)](https://www.npmjs.com/package/streamp) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
-
-<a href="https://www.buymeacoffee.com/H96WwChMy" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/yellow_img.png" alt="Buy Me A Coffee"></a>
+ [![Support me on Patreon][badge_patreon]][patreon] [![Buy me a book][badge_amazon]][amazon] [![PayPal][badge_paypal_donate]][paypal-donations] [![Ask me anything](https://img.shields.io/badge/ask%20me-anything-1abc9c.svg)](https://github.com/IonicaBizau/ama) [![Version](https://img.shields.io/npm/v/streamp.svg)](https://www.npmjs.com/package/streamp) [![Downloads](https://img.shields.io/npm/dt/streamp.svg)](https://www.npmjs.com/package/streamp)
 
 > mkdir -p combined with streams.
 
@@ -26,19 +24,19 @@ yarn add streamp
 
 ```js
 // Dependencies
-var Streamp = require("streamp");
+const Streamp = require("streamp")
 
 // Constants
-const PATH = __dirname + "/long/path/to/foo.txt";
+const PATH = __dirname + "/long/path/to/foo.txt"
 
 // Create writable stream
-var bar = new Streamp.writable(PATH);
-bar.write(new Date().toString() + "\n");
-bar.end();
+const bar = new Streamp.writable(PATH)
+bar.write(new Date().toString() + "\n")
+bar.end()
 
 // Create readable stream
-var foo = new Streamp.readable(PATH);
-foo.pipe(process.stdout);
+const foo = new Streamp.readable(PATH)
+foo.pipe(process.stdout)
 ```
 
 
@@ -109,19 +107,6 @@ However, if you get some profit from this or just want to encourage me to contin
 Thanks! :heart:
 
 
-## :dizzy: Where is this library used?
-If you are using this library in one of your projects, add it in this list. :sparkles:
-
-
- - [`3abn`](https://github.com/IonicaBizau/3abn#readme)—A 3ABN radio client in the terminal.
- - [`blah`](https://github.com/IonicaBizau/blah)—A command line tool to optimize the repetitive actions.
- - [`csv-it`](https://github.com/IonicaBizau/csv-it#readme)—Simple and useful tools to work with CSV files.
- - [`github-colors`](https://github.com/IonicaBizau/github-colors)—GitHub colors and file extensions mapping
- - [`google-font-downloader`](https://github.com/Bloggify/google-font-downloader#readme) (by Bloggify)—Download Google fonts by providing the url
- - [`kindly-license`](https://github.com/IonicaBizau/kindly-license)—A human readable license for projects created by human-beings.
- - [`np-init`](https://github.com/IonicaBizau/np-init#readme)—Easily start a npm package from scratch.
- - [`obj2env`](https://github.com/Bloggify/obj2env#readme) (by Bloggify)—Create files storing environment variables by using objects.
- - [`rucksack`](https://github.com/Bloggify/rucksack#readme) (by Bloggify)—JavaScript and CSS bundler.
 
 ## :scroll: License
 
