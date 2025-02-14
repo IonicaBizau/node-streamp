@@ -1,6 +1,6 @@
 {
   "name": "streamp",
-  "version": "3.0.2",
+  "version": "3.0.3",
   "description": "mkdir -p combined with streams.",
   "main": "lib/index.js",
   "directories": {
@@ -40,6 +40,8 @@
     "menu/",
     "cli.js",
     "index.js",
+    "index.d.ts",
+    "package-lock.json",
     "bloggify.js",
     "bloggify.json",
     "bloggify/"
